@@ -1,0 +1,8 @@
+AuthType Basic
+AuthGroupFile /dev/null
+AuthName "회원 ID 및 패스워드를 입력해 주세요!"
+AuthUserFile /home1/webweaver/htdocs/am/memberonly/.htpasswd
+
+<Limit GET POST>
+require valid-user
+</Limit>

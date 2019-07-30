@@ -1,0 +1,92 @@
+<HTML>
+<HEAD>
+<TITLE>WebWeaver 회원 가입 폼</TITLE></HEAD>
+<BODY bgcolor="#ffffff">
+<CENTER>
+  <textarea cols="82" rows="5">회원가입약관
+
+1조.
+2조.
+3조.
+</textarea>
+</CENTER><FORM ACTION="acctman.cgi" METHOD="POST"><CENTER>
+<TABLE BORDER="0" WIDTH="600">
+<TR>
+<TD bgcolor="#ff6633"><INPUT TYPE="CHECKBOX" NAME="agree" VALUE="agree" checked></TD>
+<TD bgcolor="#ff6633"><FONT SIZE="-1"><B>회원가입 약관을 읽었으며 이에 동의합니다. 
+</B></FONT></TD></TR>
+</TABLE><BR><P>
+    <TABLE BORDER="1" WIDTH="600">
+      <TR> 
+        <TD COLSPAN="2"> 
+          <HR SIZE="2" NOSHADE="NOSHADE">
+        </TD>
+      </TR>
+      <TR> 
+        <TD COLSPAN="2"><FONT SIZE="3"><B>회원 정보</B></FONT><BR>
+          <FONT
+SIZE="-1" COLOR="#FF0000"><B>*</b></font><FONT
+SIZE="-1"> 표시된 항목은 반드시 입력하셔야 합니다.<BR>
+          <font size="2" color="#ff3300">(User ID와 Password는 정보열람시 인증에 필요합니다.)</font></FONT><BR>
+        </TD>
+      </TR>
+      <TR> 
+        <TD><FONT SIZE="-1">이름 </FONT><FONT SIZE="-1" COLOR="#FF0000"><B>*</b></font></TD>
+        <TD>
+          <INPUT TYPE="TEXT" NAME="fname">
+        </TD>
+      </TR>
+      <TR> 
+        <TD><FONT SIZE="-1">E-Mail ID </FONT><FONT SIZE="-1" COLOR="#FF0000">*</FONT></TD>
+        <TD>
+          <INPUT TYPE="TEXT" NAME="email">
+        </TD>
+      </TR>
+      <TR> 
+        <TD><FONT SIZE="-1"><B>User ID</B></FONT><FONT SIZE="-1" COLOR="#FF0000">*</FONT></TD>
+        <TD>
+          <INPUT TYPE="TEXT" NAME="username">
+          <FONT SIZE="-1">(영문 및 숫자 8자리 이내)</FONT></TD>
+      </TR>
+      <TR> 
+        <TD><FONT SIZE="-1"><B>Password</B></FONT><FONT SIZE="-1" COLOR="#FF0000">*</FONT> 
+          <BR>
+        </TD>
+        <TD> 
+          <INPUT TYPE="password" NAME="pwd">
+          <FONT SIZE="-1">확인</FONT>
+          <INPUT TYPE="password" NAME="pwd2">
+        </TD>
+      </TR>
+      <TR> 
+        <TD> <FONT SIZE="-1">전화번호</FONT><FONT SIZE="-1" COLOR="#FF0000">*</FONT></TD>
+        <TD>
+          <INPUT TYPE="TEXT" NAME="phone">
+          <FONT SIZE="-1">(지역번호 포함)</FONT></TD>
+      </TR>
+      <TR> 
+        <TD><FONT SIZE="-1">주 소</FONT><FONT SIZE="-1" COLOR="#FF0000">*</FONT></TD>
+        <TD>
+          <INPUT TYPE="TEXT" NAME="address" SIZE="40" MAXLENGTH="60">
+        </TD>
+      </TR>
+      <TR> 
+        <TD><FONT SIZE="-1">메일링 리스트 가입</FONT></TD>
+        <TD> 
+          <INPUT TYPE="RADIO" NAME="mlist" VALUE="yes" CHECKED>
+          <FONT SIZE="-1">원함</font> 
+          <INPUT TYPE="RADIO" NAME="mlist" VALUE="no">
+          <FONT SIZE="-1">원치않음</font> </TD>
+      </TR>
+    </TABLE>
+ <BR><P>
+<TABLE BORDER="0" WIDTH="600">
+<TR>
+<TD align="left"><font size="2" color="#ff3300">신청후 약 1일내에 처리되며 처리결과는 이메일로 통보해 드립니다.</font></TD>
+    </TR>
+</table>
+
+<INPUT
+TYPE="SUBMIT" NAME="process" VALUE="신청합니다"><INPUT
+TYPE="RESET" NAME="" VALUE="다시작성">
+<HR SIZE="2" NOSHADE="NOSHADE" WIDTH="600"></center></FORM></BODY></HTML>
